@@ -1,3 +1,6 @@
+var pupilY = 80;
+var pupilX = 50
+
 function setup() {
   createCanvas(500,500);
 }
@@ -9,8 +12,8 @@ function draw() {
   ellipse(150,50,100,100);
   
   //pupils
-  ellipse(50,50,50,50);
-  ellipse(150,50,50,50);
+  ellipse(pupilX,pupilY,50,50);
+  ellipse(pupilX + 100,pupilY,50,50);
   
   //nose
   rect(125,125,30,30);
